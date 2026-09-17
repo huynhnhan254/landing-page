@@ -1,0 +1,60 @@
+/* global CSS */
+* {
+    font: roboto;
+}
+
+
+.flex-container.one, .flex-container.two, footer {
+    background-color: #1F2937;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    flex: 1;
+}
+
+.flex-container.one, .flex-container.two,  .flex-container.five{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline {
+    display: flex;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.flex-container.two h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.inline{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.flex-container.four{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F3927;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.flex-container.five {
+    background-color: #3882F6;
+}
