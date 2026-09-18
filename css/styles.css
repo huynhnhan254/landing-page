@@ -1,60 +1,61 @@
-/* global CSS */
+/* Global */
 * {
-    font: roboto;
+    font-family: 'Roboto';
 }
 
-
-.flex-container.one, .flex-container.two, footer {
-    background-color: #1F2937;
-}
-
-.container{
+/* Flexbox 4 main contents */
+.flex-container, .one {
     display: flex;
     flex-direction: column;
 }
 
-.flex-container {
-    flex: 1;
-}
-
-.flex-container.one, .flex-container.two,  .flex-container.five{
-    display: flex;
-    justify-content: space-between;
-}
-
-.inline {
+.header, .inline, .hero, .image-container, .four {
     display: flex;
 }
 
-.image-container{
-    display: flex;
-    justify-content: space-between;
+.header, .hero, footer {
+    background-color: #1F2937;
 }
 
-.logo-text{
+/* Main content one */
+.logo-text {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.flex-container.two h1{
+.main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.inline{
+.inline {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.flex-container.four{
-    background-color: #E5E7EB;
+/* Main content two  */
+.info {
     font-size: 36px;
-    color: #1F3927;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/* Main content three */
+.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
 }
 
-.flex-container.five {
+/* Main content four */
+.button, .four {
     background-color: #3882F6;
 }
+
+/* Footer */
